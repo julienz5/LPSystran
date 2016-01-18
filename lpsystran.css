@@ -1,0 +1,129 @@
+/* ..........................................GENERAL................................ */
+
+.container-fluid{
+    padding: 0;
+}
+h2 span{
+    color:#009CD3;
+}
+
+/* ..........................................NAVBAR................................ */
+
+#bs-example-navbar-collapse-1{
+    background-color:#009CD3;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.titresnav{
+    font-size: 18px;
+}
+.titresnav li a{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-brand {
+    padding: 15px 40px;
+    font-size: 26px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #009CD3;
+    }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: white;
+} 
+
+/* ..........................................BOUTONS SOCIAL................................ */
+.network-name {
+    /*color: #009CD3;*/
+}
+.fa {
+    color: #009CD3;
+    font-size: 50px;
+}
+
+/* ..........................................AJUST NAVBAR FIXED................................ */
+
+.intro-message{
+    padding-top: 50px;
+}
+/* ..........................................BACK TO TOP................................ */
+
+
+#back-to-top {
+    font-size: 22px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 35px;
+    background: #009CD3;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e7e7e7;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+
+
+
+/* ..........................................FOOTER................................ */
+
+
+
+footer{
+    height: 200px;
+    background-color: rgba(7, 7, 7, 0.92);
+    margin-top: 40px;
+    
+}
+
+footer a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:active{
+    text-decoration: none;
+    color: white;
+}
+
+#socialbuttons{
+    text-align: center;
+    padding-top: 5%;
+}
+#socialbuttons i{
+    margin: 0px 5px;
+}
+
+#socialbuttons .fa{
+    font-size: 60px;
+    color: #e7e7e7;
+}
+#socialbuttons .fa:hover{
+    color: white;
+}

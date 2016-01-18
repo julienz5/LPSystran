@@ -17,6 +17,12 @@ h2 span{
     color: white;
 }
 
+@media (max-width:765px){
+    .navbar-default .navbar-brand{
+        color: #009CD3;
+    }
+}
+
 .titresnav{
     font-size: 18px;
 }

@@ -24,7 +24,7 @@
 
 
 
-    <body id="body"data-spy="scroll" data-target=".navbar" data-offset="50">   
+    <body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">   
 
 <div class="container-fluid"> <!-- ....................................................Container........................................ -->
 
@@ -719,32 +719,15 @@
 
 
 
-<svg width="500" height="118">
-  <circle id="orange-circle" r="30" cx="50" cy="50" fill="orange" />
-  
-  <animate 
-           xlink:href="#orange-circle"
-           attributeName="cx"
-           from="50"
-           to="350" 
-           dur="4s"
-           begin="0s"
-           repeatCount="indefinite"
-           fill="freeze" />       
-           
-</svg>
-
-
-
 
 <!-- ...................................CADENAS................................................................. -->
 
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     width="150.015px" height="111.177px" viewBox="0 0 150.015 111.177" enable-background="new 0 0 150.015 111.177"
+     width="150.015px" height="300px" viewBox="0 0 150.015 111.177" enable-background="new 0 0 150.015 111.177"
      xml:space="preserve">
 
-    <g>
-        <path id="cadenas" fill-rule="evenodd" clip-rule="evenodd" fill="#2F7BB9" d="M46.895,67.542c0.31-1.784,1.369-3.056,2.879-3.923
+    <g id="cadenas">
+        <path fill-rule="evenodd" clip-rule="evenodd" fill="#2F7BB9" d="M46.895,67.542c0.31-1.784,1.369-3.056,2.879-3.923
             c0.641-0.367,0.814-0.76,0.825-1.455c0.147-9.51,7.696-17.92,17.968-18.488c9.334-0.517,17.888,5.848,19.754,15.604
             c0.033,0.174,0.063,0.35,0.071,0.526c0.083,1.937,0.272,3.658,2.268,4.892c1.553,0.96,1.937,2.896,1.939,4.739
             c0.009,7.535,0.029,15.07-0.006,22.604c-0.019,3.951-2.784,6.652-6.733,6.656c-10.948,0.01-21.896,0.011-32.843-0.004
@@ -757,9 +740,15 @@
             c-0.749-2.88-3.128-4.759-6.046-4.967c-2.572-0.185-5.206,1.382-6.361,3.782c-1.257,2.61-0.811,5.467,1.317,7.572
             c0.66,0.652,0.702,1.167,0.36,1.96c-0.804,1.868-1.548,3.764-2.264,5.667c-0.493,1.311-0.042,1.97,1.335,1.994
             C66.064,91.796,67.794,91.772,69.522,91.771z"/>
+            <animateTransform
+                attributeType="XML"
+                attributeName="transform"
+                type="translate"
+                from="0,200" to="-100,-300"
+                begin="0s" dur="5"
+                repeatCount="indefinite"/>
     </g>
-
-
+ 
 </svg>
 
 

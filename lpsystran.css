@@ -56,16 +56,28 @@ h2 span{
     font-size: 50px;
 }
 
+
+
 /* ..........................................AJUST NAVBAR FIXED................................ */
 
 .intro-message{
     padding-top: 50px;
 }
+/* ..........................................MULTIMODAL................................ */
+
+#traductiontexte
+
 /* ..........................................BACK TO TOP................................ */
 
 
-#back-to-top {
-    font-size: 22px;
+
+
+#backtotop:hover {
+    background: #e7e7e7;
+}
+#backtotop.show {
+    opacity: 1;
+        font-size: 22px;
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -81,14 +93,8 @@ h2 span{
     border-radius: 2px;
     text-decoration: none;
     transition: opacity 0.2s ease-out;
-    opacity: 0;
 }
-#back-to-top:hover {
-    background: #e7e7e7;
-}
-#back-to-top.show {
-    opacity: 1;
-}
+
 
 
 
@@ -97,11 +103,13 @@ h2 span{
 
 
 footer{
+
     height: 200px;
     background-color: rgba(7, 7, 7, 0.92);
     margin-top: 40px;
     
 }
+
 
 footer a:visited{
     text-decoration: none;

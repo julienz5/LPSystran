@@ -67,6 +67,47 @@ h2 span{
 
 #traductiontexte
 
+
+/* ..........................................DRAPEAUX................................ */
+
+
+#fr:hover{
+    opacity: 0.6;
+}
+#es:hover{
+    opacity: 0.6;
+}
+#it:hover{
+    opacity: 0.6;
+}
+#il:hover{
+    opacity: 0.6;
+}
+#hongrie:hover{
+    opacity: 0.6;
+}
+#cor:hover{
+    opacity: 0.6;
+}
+#jap:hover{
+    opacity: 0.6;
+}
+#de:hover{
+    opacity: 0.5;
+}
+#aus:hover{
+    opacity: 0.5;
+}
+#chin:hover{
+    opacity: 0.5;
+}
+#bra:hover{
+    opacity: 0.5;
+}
+#arg:hover{
+    opacity: 0.5;
+}
+
 /* ..........................................BACK TO TOP................................ */
 
 

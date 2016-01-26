@@ -84,6 +84,26 @@ $("#arg").on('click',function (){
   $("#pairesdelangues").text('"Nuestra tecnología es compatible con más de 140 pares de idiomas"');
 
 });
+
+ //.........................................................................Changer image métier
+
+
+var numimage = 0;
+var src = "ecran" + (numimage) + ".png";
+
+$("#métier").on('click',function (){
+  console.log("click!");
+  console.log(numimage);
+  numimage = numimage +1;
+  if (numimage>2) {numimage = 0};
+  src = "ecran" + (numimage) + ".png";
+  console.log(src);
+$("#métier").attr("src", "img/" + src.toLowerCase());
+
+});
+
+
+
  //.........................................................................Back to Top
 
 if ($('#backtotop').length) {

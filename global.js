@@ -91,7 +91,7 @@ $("#arg").on('click',function (){
 var numimage = 0;
 var src = "ecran" + (numimage) + ".png";
 
-$("#métier").on('click',function (){
+$("#mouse").on('click',function (){
   console.log("click!");
   console.log(numimage);
   numimage = numimage +1;

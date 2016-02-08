@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+  <head>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+
+  </head>
+
+
+
+    <div style="width:400px; padding: 0; margin: 0; font-family: 'Montserrat', helvetica, sans-serif; background: #222; color: #fff; font-size: 15pt; line-height: 1.5; padding: 2%;">
+    <style>
+    .teletype-prefix, .teletype-cursor { color: #00bd9c; }
+    </style>
+        <div class="jquery-script-ads">
+          <script type="text/javascript"><!--
+          </script>
+          <script type="text/javascript"
+          src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+          </script></div>
+
+    <p class="type-text" title="Notre technologie supporte plus de 140 paires de langues/"</p>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.teletype.js"></script>
+    <script>
+    $( function() {
+      $( '.type-text' ).each( function() {
+        var items = $( this ).attr( 'title' ) + ';';
+        $( this ).empty().attr( 'title', '' ).teletype( {
+          text: $.map( items.split( ';' ), $.trim ),
+          typeDelay: 10,
+          backDelay: 20,
+          cursor: '▋',
+          delay: 3000,
+          preserve: false,
+          prefix: '[SYSTRAN ~]# ',
+          loop: 0
+        } );
+      } );
+    } );
+    </script>
+</div>
+
+</html>

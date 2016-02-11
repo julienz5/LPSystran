@@ -95,7 +95,7 @@ $(document).ready(function(){
         settings.callbackType( letter, current, object );
       }
     };
-    var backspace = function( stop ) {
+/*    var backspace = function( stop ) {
       if ( !stop ) {
         stop = 0;
       }
@@ -113,7 +113,7 @@ $(document).ready(function(){
         }
         window.setTimeout( type, delay( settings.typeDelay ) );
       }
-    };
+    };*/
     var delay = function( speed ) {
       var time = parseInt( speed );
       if ( settings.humanise ) {
@@ -183,7 +183,7 @@ $("#traduction").on('click',function (){
 function typing(elem){
 	elem.teletype( {
 		text: $.map( elem.attr( 'title' ).split( ';' ), $.trim ),
-		typeDelay: 10,
+		typeDelay: -50,
 		//backDelay: 20,
 		cursor: '▋',
 		delay: 3000,
